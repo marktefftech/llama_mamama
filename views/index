@@ -3,43 +3,47 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>ACL 2018</title>
+    <title>LLama Mamama</title>
     <link href="style.css" rel="stylesheet">
+    <html lang="en">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
-<header class="Header">
-  <p class="mainheader comments" id="comment1">Austin Parks Foundation Presents....</p>
-  <h1 class="mainheader" id="acltitle">Austin City Limits</h1>
-  <h2 class="mainheader">Music Festival</h2>
-  <p class="mainheader comments" id="comment2">Oct5-6 <span>+</span> Oct11-13 <span>2019</span> Zilker Park</p>
-
-  <nav class="navBar">
-    <ul>
-        <li class="navListItems"> Tickets</li>
-        <li class="navListItems"> Lineup</li>
-        <li class="navListItems"> Experience</li>
-        <li class="navListItems"> Information</li>
-    </ul>
-  </nav>
-</header>
+<img id="llamaPicture" src="/Users/markteffeteller/web_projects/llama/assets/llama.png" alt="Picture of llama in background">
+<section class="mainHeaader">
+  <header class="Header">
+    <h1 id="llamaTitle"> LLama Mamama </h1>
+      <section class="navContainer">
+        <nav class="navBar">
+          <ul class ="headerNav">
+              <li class="navListItems"> Home</li>
+              <li class="navListItems"> Stories</li>
+              <li class="navListItems"> Characters</li>
+              <li class="navListItems"> About</li>
+          </ul>
+        </nav>
+      </section>
+  </header>
+</section>
 
 <body>
-    <section>
-        <h1>Lineup</h1>
-        <h2>STAY TUNED FOR MORE INFORMATION</h2>
-        <p class="comments" id="comment3">Want to be the first to know? <strong>Sign up for the E-List!</strong> Being a member of the ACL Festival E-List gives you some sweet perks. You’ll get official updates throughout the year, super-special deals, the inside line on Official Late Night Shows, contests, artist giveaways and much, much more. <strong>Sign up below!</strong></p>
-        <ul class="elist">
-          <li id="li1"> Don't miss a beat! Join our E-List!</li>
-          <li id="li2"> JOIN </li>
-        </ul>
+    <article class="article1">
+        <h1>Libro Uno: Yo puedo saltar!</h1>
+        <p class="comments">Want to be the first to know? <strong>Sign up for the E-List!</strong> </p>
+    </article>
 
-    </section>
-        <p class="comments" id="comment4">Check out the 2018 Lineup poster below.</p>
-        <img src="/Users/markteffeteller/web_projects/fun/acl_mockup/assets/images/acl_mockup_poster.jpg" alt_text="Line up poster" Title="This is the line up for 2018.">
-    <section>
+    <article class="article2">
+        <h1>Libro Dos: Yo quiero comer!</h1>
+        <p class="comments">Want to be the first to know? <strong>Sign up for the E-List!</strong> </p>
+    </article>
+
+    <article class="article3">
+        <h1>Libro Tres: A mi me gusta...</h1>
+        <p class="comments">Want to be the first to know? <strong>Sign up for the E-List!</strong> </p>
+    </article>
+
 </body>
 
 <footer class="footer">
-    <p id="comment4"> Thanks for checking out the site. I am in <b>NO WAY</b> affiliated with ACL. I just think they have a pretty website
-    <br> Mark Teffeteller</br>
+    <p id="comment4"> Thanks for checking out the site. </p>
 </footer

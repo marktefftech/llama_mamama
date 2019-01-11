@@ -1,0 +1,96 @@
+
+body  {
+  font-size: 1rem;
+  background-image: linear-gradient(to right, #dfee75, #b7ef8a, #91eea3, #6feabb, #55e4d1, #29dadf, #00cfea, #10c3f0, #20b0f3, #509aed, #7981dd, #9965c2);
+  margin: auto;
+  width: 90vw;
+}
+
+#llamaTitle {
+  text-align: center;
+  color: black;
+  font-family: "Bodoni MT", Didot, "Didot LT STD", "Book Antiqua", Garamond, "Times New Roman", serif;
+  font-size: 3em;
+}
+
+#comment1 {
+  font-size: .8rem;
+  margin-bottom: -.3rem;
+}
+
+#comment2 {
+  font-size: .8rem;
+  margin-top: -.3rem;
+}
+
+/*BEGIN NAV*******************************************************************************/
+
+.navContainer {
+
+}
+
+.navBar {
+  display: block;
+  border-radius: 5%;
+  border-collapse: separate;
+}
+
+.navBar ul{
+  background-color: #C1B3C8; /*navbar*/
+  padding: .5rem;
+    /* initialize flexbox container and flexbox items */
+  display: flex;
+  justify-content: space-around;
+}
+
+.navBar ul li{
+  list-style-type: none;
+  font-size: 1.5em;
+}
+
+.navBar ul li:hover {
+  font-size: 1.5em;
+  font-weight: bolder;
+}
+
+/*END NAV*******************************************************************************/
+
+/*BEGIN BODY*******************************************************************************/
+
+body article h1 {
+  text-align: left;
+  border-bottom: .3rem lightgray double;
+  padding-bottom: .5rem;
+}
+
+body article h2 {
+  text-align: left;
+  margin-top: 0;
+  color: black; /* vibrant red*/
+  font-size: smaller;
+  padding-top: .5rem;
+}
+
+#comment3 {
+  font-size: smaller;
+  text-justify: center;
+}
+
+.footer {
+  height: 100vh;
+}
+
+#comment4 {
+  text-align: center;
+  margin-top: 5vh;
+  font-weight: bolder;
+}
+
+#llamaPicture {
+  max-width: 5vw;
+  position: fixed;
+  margin-right: 5vw;
+  margin-top: 5vw;
+  top: 0;
+  right: 0;
+}
