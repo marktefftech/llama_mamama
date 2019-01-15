@@ -1,0 +1,9 @@
+
+.videosClass {
+  display: block;
+  margin: 0 auto;
+  margin-top: 10vh;
+  border: .7em double  #ff99ff;
+  border-radius: 25px;
+  padding: .4em;
+}

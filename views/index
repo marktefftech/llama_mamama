@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -10,6 +9,7 @@
 </head>
 
 <img id="llamaPicture" src="/Users/markteffeteller/web_projects/llama/assets/llama.png" alt="Picture of llama in background">
+
 <section class="mainHeaader">
   <header class="Header">
     <h1 id="llamaTitle"> LLama Mamama </h1>

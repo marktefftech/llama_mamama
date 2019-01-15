@@ -11,6 +11,7 @@ body  {
   color: black;
   font-family: "Bodoni MT", Didot, "Didot LT STD", "Book Antiqua", Garamond, "Times New Roman", serif;
   font-size: 3em;
+  text-decoration: underline;
 }
 
 #comment1 {
@@ -19,7 +20,7 @@ body  {
 }
 
 #comment2 {
-  font-size: .9rem;
+  font-size: .8rem;
   margin-top: -.3rem;
 }
 
@@ -36,11 +37,13 @@ body  {
 }
 
 .navBar ul{
-  background-color: #C1B3C8; /*navbar*/
+  background-color:   #ff99ff; /*navbar*/
   padding: .5rem;
     /* initialize flexbox container and flexbox items */
   display: flex;
   justify-content: space-around;
+  border: .1em black solid;
+  border-radius: 25px;
 }
 
 .navBar ul li{
