@@ -1,9 +1,11 @@
 
+
 body  {
   font-size: 1rem;
   background-image: linear-gradient(to right, #dfee75, #b7ef8a, #91eea3, #6feabb, #55e4d1, #29dadf, #00cfea, #10c3f0, #20b0f3, #509aed, #7981dd, #9965c2);
   margin: auto;
-  width: 90vw;
+  width: 100vw;
+  height: 100vh;
 }
 
 #llamaTitle {
@@ -26,29 +28,40 @@ body  {
 
 /*BEGIN NAV*******************************************************************************/
 
-.navContainer {
-
-}
 
 .navBar {
-  display: block;
-  border-radius: 5%;
-  border-collapse: separate;
+  width: 100vw;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: column wrap;
+}
+
+#textLogo {
+  width: 20em;
+  position: fixed;
+  left: 0;
 }
 
 .navBar ul{
-  background-color:   #ff99ff; /*navbar*/
+  background-color: lightgray; /*navbar*/
   padding: .5rem;
+  padding-left:40vw;
+  height: 5vh;
     /* initialize flexbox container and flexbox items */
   display: flex;
   justify-content: space-around;
-  border: .1em black solid;
-  border-radius: 25px;
 }
 
 .navBar ul li{
   list-style-type: none;
-  font-size: 1.5em;
+  font-size: 1em;
+  line-height: 5vh;
+  font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", sans-serif;
+}
+
+#homeIcon {
+  width: 1.2em;
+  margin-top: .5em;
 }
 
 .navBar ul li:hover {

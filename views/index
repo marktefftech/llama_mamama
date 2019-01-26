@@ -8,25 +8,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
-<img id="llamaPicture" src="/Users/markteffeteller/web_projects/llama/assets/llama.png" alt="Picture of llama in background">
-
-<section class="mainHeaader">
-  <header class="Header">
-    <h1 id="llamaTitle"> LLama Mamama </h1>
-      <section class="navContainer">
-        <nav class="navBar">
-          <ul class ="headerNav">
-              <li class="navListItems"> Home</li>
-              <li class="navListItems"> Stories</li>
-              <li class="navListItems"> Characters</li>
-              <li class="navListItems"> About</li>
-          </ul>
-        </nav>
-      </section>
-  </header>
-</section>
 
 <body>
+
+    <nav class="navBar">
+        <ul class ="headerNav">
+            <img class="navListItems" id = "textLogo"src="/Users/markteffeteller/web_projects/llama/assets/logo.png" alt="Llama Mamama text logo"> </li>
+            <li class="navListItems"> <img class="navListItems" id = "homeIcon"src="/Users/markteffeteller/web_projects/llama/assets/home_icon.png" alt="Llama Mamama text logo"> HOME</li>
+            <li class="navListItems"> VIDEOS</li>
+            <li class="navListItems"> BOOKS</li>
+            <li class="navListItems"> ABOUT<li>
+        </ul>
+
+    </nav>
+
     <article class="article1">
         <h1>Libro Uno: Yo puedo saltar!</h1>
         <p class="comments">Want to be the first to know? <strong>Sign up for the E-List!</strong> </p>
@@ -46,4 +41,7 @@
 
 <footer class="footer">
     <p id="comment4"> Thanks for checking out the site. </p>
-</footer
+</footer>
+
+
+</body>
