@@ -2,7 +2,7 @@
 
 body  {
   font-size: 1rem;
-  background-image: linear-gradient(to right, #dfee75, #b7ef8a, #91eea3, #6feabb, #55e4d1, #29dadf, #00cfea, #10c3f0, #20b0f3, #509aed, #7981dd, #9965c2);
+  background-color: #A852FF;
   margin: auto;
   width: 100vw;
   height: 100vh;
@@ -34,16 +34,18 @@ body  {
   margin: 0 auto;
   display: flex;
   flex-flow: column wrap;
+  position: fixed;
 }
 
 #textLogo {
   width: 20em;
   position: fixed;
   left: 0;
+  padding-left: 2vw;
 }
 
 .navBar ul{
-  background-color: lightgray; /*navbar*/
+  background-color: #FFFFFF; /*navbar*/
   padding: .5rem;
   padding-left:40vw;
   height: 5vh;
@@ -54,9 +56,14 @@ body  {
 
 .navBar ul li{
   list-style-type: none;
-  font-size: 1em;
+  font-size: .8em;
   line-height: 5vh;
-  font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", sans-serif;
+  color: #6000C1;
+  font-family: Georgia, Times, "Times New Roman", serif;
+}
+
+li:hover{
+  font-weight: bolder;
 }
 
 #homeIcon {
@@ -73,34 +80,53 @@ body  {
 
 /*BEGIN BODY*******************************************************************************/
 
-body article h1 {
-  text-align: left;
-  border-bottom: .3rem lightgray double;
-  padding-bottom: .5rem;
+.beginContent {
+  padding-top: 10vh;
+  position: relative;
+  overflow: hidden;
 }
 
-body article h2 {
-  text-align: left;
-  margin-top: 0;
-  color: black; /* vibrant red*/
-  font-size: smaller;
-  padding-top: .5rem;
+.logInsContainer {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  height: 50vh;
 }
 
-#comment3 {
-  font-size: smaller;
-  text-justify: center;
+.parentSection, .kidSection {x
+  flex: 0 1 10vh;
+  padding: 2em;
+  margin: 5%;
+}
+
+button {
+  display: block;
+  width: 12vw;
+  height: 6vh;
+  background: none;
+  border: .2em solid white;
+  border-radius: 10px;
+}
+
+button:hover {
+  display: block;
+  width: 13vw;
+  height: 7vh;
+  background: none;
+  border: .2em solid white;
+  border-radius: 10px;
+  box-shadow: 5px 10px #6700C0;
+}
+
+h2,h3 {
+  color: white;
+  text-align: center;
 }
 
 .footer {
-  height: 100vh;
+  text-align: center;
 }
 
-#comment4 {
-  text-align: center;
-  margin-top: 5vh;
-  font-weight: bolder;
-}
 
 #llamaPicture {
   max-width: 5vw;

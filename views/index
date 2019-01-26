@@ -13,34 +13,33 @@
 
     <nav class="navBar">
         <ul class ="headerNav">
-            <img class="navListItems" id = "textLogo"src="/Users/markteffeteller/web_projects/llama/assets/logo.png" alt="Llama Mamama text logo"> </li>
-            <li class="navListItems"> <img class="navListItems" id = "homeIcon"src="/Users/markteffeteller/web_projects/llama/assets/home_icon.png" alt="Llama Mamama text logo"> HOME</li>
-            <li class="navListItems"> VIDEOS</li>
-            <li class="navListItems"> BOOKS</li>
-            <li class="navListItems"> ABOUT<li>
+            <img class="navListItems" id = "textLogo"src="http://gdurl.com/oWFj" alt="Llama Mamama text logo"> </li>
+            <li class="navListItems"> <!--<img class="navListItems" id = "homeIcon"src="http://gdurl.com/gRrV" alt="Llama Mamama text logo">--> home</li>
+            <li class="navListItems"> videos</li>
+            <li class="navListItems"> books</li>
         </ul>
-
     </nav>
 
-    <article class="article1">
-        <h1>Libro Uno: Yo puedo saltar!</h1>
-        <p class="comments">Want to be the first to know? <strong>Sign up for the E-List!</strong> </p>
-    </article>
 
-    <article class="article2">
-        <h1>Libro Dos: Yo quiero comer!</h1>
-        <p class="comments">Want to be the first to know? <strong>Sign up for the E-List!</strong> </p>
-    </article>
-
-    <article class="article3">
-        <h1>Libro Tres: A mi me gusta...</h1>
-        <p class="comments">Want to be the first to know? <strong>Sign up for the E-List!</strong> </p>
-    </article>
+    <section class ="beginContent">
+      <section class = "logInsContainer">
+        <div class ="kidSection">
+          <button>
+            <h2>kiddos</h2>
+          </button>
+        </div>
+        <div class ="parentSection">
+          <button>
+            <h2>parents</h2>
+          </button>
+        </div>
+      </section>
+    </section>
 
 </body>
 
 <footer class="footer">
-    <p id="comment4"> Thanks for checking out the site. </p>
+    <h3> About Us </h3>
 </footer>
 
 
